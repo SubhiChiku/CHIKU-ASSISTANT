@@ -409,7 +409,7 @@ def CHIKUabout_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "II_BROKEN_X_ANGEL_II":
+    elif query.data == "VIP_CHATTINGS":
         query.message.edit_caption("**๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀ**"
             f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
@@ -444,7 +444,7 @@ def CHIKUabout_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "II_BROKEN_X_ANGEL_II":
+    elif query.data == "VIP_CHATTINGS":
         first_name = update.effective_user.first_name 
         query.message.edit_caption(PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -511,7 +511,7 @@ def CHIKU_Main_Callback(update: Update, context: CallbackContext):
                 ]
             ),
             )
-    elif query.data=="II_BROKEN_X_ANGEL_II":
+    elif query.data=="VIP_CHATTINGS":
         query.message.edit_caption("""Exᴘᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅs
 
 👥 Aᴠᴀɪʟᴀʙʟᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs
