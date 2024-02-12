@@ -1,0 +1,25 @@
+# Query: daxx
+# ContextLines: 1
+
+5 results - 4 files
+
+CHIKU/__init__.py:
+  156  updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
+  157: telethn = TelegramClient("Chiku", API_ID, API_HASH)
+  158  
+
+CHIKU/modules/eval.py:
+  5            GITHUB: Subhichiku
+  6:           TELEGRAM: @Subhi_love
+  7  
+
+CHIKU/modules/writetool.py:
+  5            GITHUB: Subhichiku
+  6:           TELEGRAM: @Subhi_love
+  7  
+
+CHIKU/modules/sql/welcome_sql.py.bak:
+  6  
+  7: from Chiku.modules.helper_funcs.msg_types import Types
+  8: from Chiku.modules.sql import BASE, SESSION
+  9  

@@ -154,7 +154,7 @@ DEV_USERS.add(abs(110001110110101101000111111101101))
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("daxx", API_ID, API_HASH)
+telethn = TelegramClient("Chiku", API_ID, API_HASH)
 
 pbot = Client("CHIKU", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN,in_memory=True)
 dispatcher = updater.dispatcher
